@@ -42,26 +42,26 @@ export const UserAvatar = styled.div`
   height: 58px;
 
   background-color: #efefef;
-  border-radius: 14px;
+  border-radius: 8px;
 `;
 export const LogOutBtn = styled.button`
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
 
-  padding: 18px 26px;
+  padding: 22px 28px;
 
   color: #ffffff;
-  background-color: #000000;
+  background-color: #7ca78c;
 
-  border: 1px solid #fabb18;
-  border-radius: 14px;
 
+  border-radius: 8px;
+  border: none;
   cursor: pointer;
 
   :hover,
   :focus {
     color: #000000;
-    background: rgba(250, 187, 24, 0.1);
+    background: #fabb18;
   }
 `;

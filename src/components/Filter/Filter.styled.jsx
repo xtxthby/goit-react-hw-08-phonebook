@@ -8,10 +8,11 @@ export const Label = styled.label`
   font-size: 16px;
   font-weight: 500;
   color: #063a36;
+  margin-left: 28px;
 `;
 export const Input = styled.input`
   width: 250px;
-  padding: 4px 8px;
+  padding: 22px 8px;
   border: 0;
   border-radius: 8px;
   color: #fff;

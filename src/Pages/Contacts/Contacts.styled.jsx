@@ -5,7 +5,7 @@ export const AddUserIcon = styled(FaUserPlus)`
   width: 20px;
   height: 20px;
 
-  fill: #fabb18;
+  fill: #fff;
 `;
 export const ContentPageContainer = styled.div`
   padding: 38px 48px;
@@ -22,7 +22,7 @@ export const ContactNavWrapper = styled.div`
 export const Title = styled.h2`
   font-weight: 700;
   font-size: 34px;
-
+  color:  #7ca78c;
   
   margin: 0;
 `;
@@ -49,7 +49,7 @@ export const Input = styled.input`
 
   color: #000000;
   background: #efefef;
-  border-radius: 18px;
+  border-radius: 8px;
   border-style: none;
 
   :placeholder {
@@ -69,10 +69,11 @@ export const Button = styled.button`
   padding: 1.063em 1.5em;
   margin-left: 28px;
 
-  background-color: #000000;
+  color: #fff;
+  background-color: #7ca78c;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
-  border: 1px solid rgba(250, 187, 24, 0.1);
+  border: none;
   border-radius: 14px;
 
   cursor: pointer;
@@ -85,8 +86,8 @@ export const Button = styled.button`
   :hover,
   :focus {
     color: #000000;
-    background-color: rgba(250, 187, 24, 0.1);
-    border: 1px solid #000000;
+    background-color:  #fabb18;
+    border: none;
     > svg {
       fill: #000000;
     }

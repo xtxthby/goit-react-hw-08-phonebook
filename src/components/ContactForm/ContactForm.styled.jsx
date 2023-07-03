@@ -23,7 +23,7 @@ export const Label = styled.label`
 
 export const Input = styled.input`
   padding: 4px 8px;
-  border-radius: 8px;
+  border-radius: 18px;
   background-color: #7ca78c;
   color: #fff;
   border: none;
